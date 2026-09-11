@@ -1,0 +1,33 @@
+{
+  "dataset_rows": 4269,
+  "best_model": "Random Forest",
+  "best_accuracy": 0.9789,
+  "model_comparison": {
+    "Logistic Regression": {
+      "accuracy": 0.9075,
+      "precision": 0.9224,
+      "recall": 0.931,
+      "f1_score": 0.9266
+    },
+    "Decision Tree": {
+      "accuracy": 0.9789,
+      "precision": 0.9726,
+      "recall": 0.9944,
+      "f1_score": 0.9834
+    },
+    "Random Forest": {
+      "accuracy": 0.9789,
+      "precision": 0.9761,
+      "recall": 0.9907,
+      "f1_score": 0.9833
+    }
+  },
+  "features": [
+    " no_of_dependents",
+    " income_annum",
+    " loan_amount",
+    " loan_term",
+    " cibil_score",
+    "total_assets_value"
+  ]
+}
