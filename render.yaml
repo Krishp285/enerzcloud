@@ -2,7 +2,7 @@ services:
   - type: web
     name: day-19-loan-default
     runtime: python
-    rootDir: day-19 and project (own)
+    rootDir: day-19-project-own
     buildCommand: pip install -r requirements.txt
     startCommand: streamlit run app.py --server.address 0.0.0.0 --server.port $PORT
 
