@@ -1,0 +1,2 @@
+main = https://krish-enerzcloud-project-1.streamlit.app/
+my own = https://krish-enerzcloud-project-2.streamlit.app/
