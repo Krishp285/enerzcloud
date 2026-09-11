@@ -3,7 +3,7 @@ import requests
 import os
 
 
-BACKEND_URL = os.getenv("BACKEND_URL", "http://127.0.0.1:8000").rstrip("/")
+BACKEND_URL = st.secrets.get("BACKEND_URL", os.getenv("BACKEND_URL", "http://127.0.0.1:8000")).rstrip("/")
 if not BACKEND_URL.startswith(("http://", "https://")):
     BACKEND_URL = f"https://{BACKEND_URL}"
 
